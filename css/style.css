@@ -51,3 +51,14 @@
     width: 15px;
     margin-left: 10px;
 }
+
+.container .content .launch-timer{
+    display: flex;
+}
+.container .content .launch-timer div{
+    flex-basis: 100px;
+}
+.container .content .launch-timer div p{
+    font-size: 60px;
+    margin-bottom: -10px;
+}
