@@ -56,6 +56,8 @@
     display: flex;
 }
 .container .content .launch-timer div{
+    text-align: center;
+    margin: 0 5px;
     flex-basis: 100px;
 }
 .container .content .launch-timer div p{
