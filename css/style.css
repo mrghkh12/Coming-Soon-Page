@@ -82,3 +82,29 @@
         opacity: 1;
     }
 }
+
+@media screen and (max-width : 550px) {
+    .container .content{
+        text-align: center;
+        width: 85%;
+    }
+    .container .content .title{
+        font-size: 42px;
+        margin-top: 15px;
+        line-height: 40px;
+    }
+    .container .content .launch-timer div p{
+        font-size: 36px;
+        margin-top: 15px;
+    }
+    .container .content .btn{
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .container .rocketElem{
+        right: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
