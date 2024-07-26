@@ -21,5 +21,11 @@ let timer = setInterval(() => {
     minutesElem.innerHTML = distanceMinutes < 10 ? '0' + distanceMinutes : distanceMinutes
     secondsElem.innerHTML = distanceSeconds < 10 ? '0' + distanceSeconds : distanceSeconds
 
-
+    if(distanceDate < 0){
+        clearInterval(timer)
+        daysElem.innerHTML = '00'
+        hoursElem.innerHTML = '00'
+        minutesElem.innerHTML = '00'
+        secondsElem.innerHTML = '00'
+    }
 }, 1000)
