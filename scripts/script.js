@@ -1,6 +1,6 @@
 const $ = document
 
-let launchDate = new Date('Oct 24, 2024 00:00:00').getTime();
+let launchDate = new Date('Jul 7, 2025 00:00:00').getTime();
 
 let daysElem = $.querySelector('.days')
 let hoursElem = $.querySelector('.hours')
@@ -21,5 +21,5 @@ let timer = setInterval(() => {
     minutesElem.innerHTML = distanceMinutes < 10 ? '0' + distanceMinutes : distanceMinutes
     secondsElem.innerHTML = distanceSeconds < 10 ? '0' + distanceSeconds : distanceSeconds
 
-    
+
 }, 1000)
